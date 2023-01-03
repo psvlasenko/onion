@@ -1,0 +1,17 @@
+.idea
+.DS_Store
+.vscode
+.fusebox
+.werf_secret_key
+
+node_modules
+dist
+yarn_cache
+
+*/local/
+local.js
+*.log
+*.tsbuildinfo
+documentation
+.DS_Store
+.yarn
