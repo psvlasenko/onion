@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "@onion/config",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build --clean && tsc",
+    "build-dev": "tsc --watch",
+    "lint": "lint"
+  },
+  "dependencies": {
+    "class-transformer": "0.1.10",
+    "class-validator": "0.11.0",
+    "deep-extend": "0.6.0",
+    "lodash.camelcase": "4.3.0"
+  },
+  "devDependencies": {
+    "@types/deep-extend": "0.4.31"
+  }
+}
