@@ -2,7 +2,7 @@ export type Optional<T> = T | undefined;
 export type Nullable<T> = T | null;
 export type Orderable = Date | number;
 export type Class<T = any, U extends unknown[] = any[]> = { new (...arg: U): T } & Function;
-export type AbstractClass<T = any, U extends unknown[] = unknown[]> = abstract new (...arg: U) => T & Function;
+export type AbstractClass<T = any, U extends unknown[] = any[]> = abstract new (...arg: U) => T & Function;
 export type Identifiable<T = unknown> = { id: T };
 export type Collection<T> =  { values(): IterableIterator<T> };
 export type Instance<T extends Function> = T extends abstract new (...arg: any) => infer U ? U : T['prototype'];

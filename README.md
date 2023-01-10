@@ -1,3 +1,5 @@
+Monorepository containing set of packages and usage examples
+is progress
 ## Build
 
 - Install dependencies
