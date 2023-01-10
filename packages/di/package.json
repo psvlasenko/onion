@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "@onion/di",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build --clean && tsc",
+    "lint": "lint",
+    "tslint": "lint-fix",
+    "build-dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@onion/utils": "*",
+    "@onion/config": "*",
+    "glob": "8.0.3",
+    "lodash": "4.17.15",
+    "ramda": "0.28.0"
+  },
+  "devDependencies": {
+    "@onion/types": "*",
+    "@types/glob": "8.0.0",
+    "@types/lodash": "4.14.145",
+    "@types/ramda": "0.27.40"
+  }
+}
